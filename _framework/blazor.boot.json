@@ -1,7 +1,7 @@
 {
   "entryAssembly": "Client",
   "resources": {
-    "hash": "sha256-s02WQOpTFc6z8vwuev6IXD5HF/K/SUQwhfrkCvO3/j4=",
+    "hash": "sha256-EnrSWTyWQNsBz9LvXqM26NNlTMV1+yXKO0MRk3nmcYM=",
     "runtime": {
       "dotnet.7.0.18.r2asunytp9.js": "sha256-lsqy0PQ8nf1/0sSlLGe3Kfwi8V0Q1QzVy5+AqtJ3cfU=",
       "dotnet.timezones.blat": "sha256-aPcvvHoFVwCzeRxTOvMTcrI2l2HKJO0sjSN7IF10LUQ=",
@@ -12,7 +12,7 @@
     },
     "assembly": {
       "BlazorLeafletFork.dll": "sha256-jb2kJGJcyMExW+SNc+G6uWzyyQqidQy1lbWND8Mr8LI=",
-      "Client.dll": "sha256-6a5oA+8p6xBgSMhsEfmB6MbFIID36zzoNifsUxOaMiI=",
+      "Client.dll": "sha256-b8z7gpUh/UfV/Wt3Vw8qh76jyUcjnJteDPaG+ACKzI0=",
       "ComponentsLibrary.dll": "sha256-w2rcsIV0cmrv+NysH66byVaXePC9pThBRfZFhModQxo=",
       "Microsoft.AspNetCore.Components.dll": "sha256-s1Wsw+czyB8P4qlJ/SdtHIS82MCrhO13R5zVQTQHjjw=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-bb1+gYnqaZLctX01vSpqiD/8nYevQVB7jK4DOuchmHU=",
