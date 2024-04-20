@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Spy the Noise</title>
+    <base href="/" />
+    <link rel="icon" href="img/logo.svg" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="_content/Radzen.Blazor/css/dark-base.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+            integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+            crossorigin=""></script>
+
+    <!--<link href="_content/ComponentsLibrary/leaflet/leaflet.css" rel="stylesheet" />-->
+    <!-- If you add any scoped CSS files, uncomment the following to load them
+    <link href="Client.styles.css" rel="stylesheet" /> -->
+</head>
+
+<body>
+    <div id="app">Loading...</div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js?v=@(typeof(Radzen.Colors).Assembly.GetName().Version)"></script>
+    <script src="_content/BlazorLeafletFork/leafletBlazorInterops.js"></script>
+    <!--<script src="_content/ComponentsLibrary/scripts/localStorage.js"></script>
+    <script src="_content/ComponentsLibrary/scripts/stationsMap.js"></script>
+    <script src="_content/ComponentsLibrary/leaflet/leaflet.js"></script>-->
+</body>
+
+</html>
